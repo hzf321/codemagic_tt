@@ -57,7 +57,7 @@ Application* app = nullptr;
     // Use RootViewController to manage CCEAGLView
     _viewController = [[RootViewController alloc]init];
 #ifdef NSFoundationVersionNumber_iOS_7_0
-    _viewController.automaticallyAdjustsScrollViewInsets = NO;
+    // _viewController.automaticallyAdjustsScrollViewInsets = NO;
     _viewController.extendedLayoutIncludesOpaqueBars = NO;
     _viewController.edgesForExtendedLayout = UIRectEdgeAll;
 #else
@@ -77,7 +77,7 @@ Application* app = nullptr;
     
     [window makeKeyAndVisible];
     
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    // [[UIApplication sharedApplication] setStatusBarHidden:YES];
     
     //run the cocos2d-x game scene
     app->start();
