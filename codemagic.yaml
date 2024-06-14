@@ -17,9 +17,9 @@ workflows:
       xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
     scripts:
-      # - name: Install CocoaPods dependencies
-      #   script: | 
-      #     pod init && pod install
+      - name: Install CocoaPods dependencies
+        script: | 
+          pod init && pod install
       - name: Set up provisioning profiles settings on Xcode project
         script: xcode-project use-profiles
       - name: Increment build number
