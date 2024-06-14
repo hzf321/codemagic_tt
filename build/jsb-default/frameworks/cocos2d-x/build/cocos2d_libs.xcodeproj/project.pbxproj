@@ -5363,7 +5363,7 @@
 		1551A34A158F2AB200E66CFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -5412,7 +5412,7 @@
 		1551A34B158F2AB200E66CFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -5458,7 +5458,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 051C017221E2F86900D4A347 /* CCModuleConfigMac.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_EXTENSION = a;
@@ -5488,7 +5488,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 051C017121E2F86900D4A347 /* CCModuleConfigMac.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_EXTENSION = a;
@@ -5518,7 +5518,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 051C016F21E2F85C00D4A347 /* CCModuleConfigIOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				ENABLE_BITCODE = NO;
@@ -5546,7 +5546,7 @@
 				);
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../external/ios/libs\"";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DCC_NEW_RENDERER";
@@ -5562,7 +5562,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 051C017021E2F85C00D4A347 /* CCModuleConfigIOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -5592,7 +5592,7 @@
 				);
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../external/ios/libs\"";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
