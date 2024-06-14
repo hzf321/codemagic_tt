@@ -2,4 +2,3 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 #include "../../cocos2d-x/cocos/platform/ios/CCModuleConfigIOS.release.xcconfig"
-#include "…/Pods/Target Support Files/Pods-ColorUp-mobile/Pods-ColorUp-mobile.debug.xcconfig"
