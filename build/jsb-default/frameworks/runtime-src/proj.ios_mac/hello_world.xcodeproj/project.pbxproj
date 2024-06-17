@@ -697,7 +697,6 @@
 		};
 		A92277011517C097001B78AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051C017421E2F91200D4A347 /* UserConfigIOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -732,7 +731,6 @@
 		};
 		A92277021517C097001B78AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 051C017521E2F91200D4A347 /* UserConfigIOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
