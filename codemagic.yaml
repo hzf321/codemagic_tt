@@ -15,7 +15,7 @@ workflows:
         XCODE_SCHEME: "hello_world-mobile"
         APP_STORE_APPLE_ID: 6504336292
       xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
-      cocoapods: default
+      cocoapods: link
     scripts:
       - name: Install CocoaPods dependencies
         script: | 
@@ -24,7 +24,7 @@ workflows:
         script: xcode-project use-profiles
       - name: Increment build number
         script: | 
-          cd build/jsb-default/frameworks/runtime-src/proj.ios_mac
+          cd build/jsb-link/frameworks/runtime-src/proj.ios_mac
           LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
           agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Build ipa for distribution
@@ -48,7 +48,7 @@ workflows:
       app_store_connect:
         auth: integration
 
-        # Configuration related to TestFlight (optiona1l)
+        # Configuration related to TestFlight (optiona1l) 
         # Note: This action is performed during post-processing.
         submit_to_testflight: true
         beta_groups: # Specify the names of beta tester groups that will get access to the build once it has passed beta review.
