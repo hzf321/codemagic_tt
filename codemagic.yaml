@@ -14,7 +14,7 @@ workflows:
         XCODE_WORKSPACE: "hello_world.xcworkspace"
         XCODE_SCHEME: "hello_world-mobile"
         APP_STORE_APPLE_ID: 6504336292
-      xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
+      xcode: 15 # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
     scripts:
       - name: Install CocoaPods dependencies
