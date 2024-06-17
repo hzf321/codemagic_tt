@@ -24,7 +24,7 @@ workflows:
         script: xcode-project use-profiles
       - name: Increment build number
         script: | 
-          cd build/jsb-link/frameworks/runtime-src/proj.ios_mac
+          cd build/jsb-default/frameworks/runtime-src/proj.ios_mac
           LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
           agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Build ipa for distribution
@@ -32,7 +32,6 @@ workflows:
           xcode-project build-ipa \
             --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME"
-            --archive-flags="-destination 'generic/platform=iOS'" 
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
