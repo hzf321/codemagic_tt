@@ -30,7 +30,7 @@ workflows:
       - name: Build ipa for distribution
         script: | 
           xcode-project build-ipa \
-            --project "hello_world.xcodeproj"
+            --project "$CM_BUILD_DIR/hello_world.xcodeproj" \
             --scheme "$XCODE_SCHEME"
     artifacts:
       - build/ios/ipa/*.ipa
