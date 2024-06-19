@@ -1,0 +1,20 @@
+
+gouzi.png
+size: 149,79
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ic/gouzi
+  rotate: false
+  xy: 2, 2
+  size: 74, 75
+  orig: 74, 75
+  offset: 0, 0
+  index: -1
+ic/gouzi1
+  rotate: false
+  xy: 78, 4
+  size: 69, 73
+  orig: 74, 75
+  offset: 5, 2
+  index: -1

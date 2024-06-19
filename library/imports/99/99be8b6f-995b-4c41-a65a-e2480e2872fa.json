@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hall_mask",
+    "texture": "e9158ddc-bc4d-4811-8cd4-ef1d7eb27ab6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      296,
+      222
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      296,
+      222
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

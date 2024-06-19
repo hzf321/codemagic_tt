@@ -1,0 +1,243 @@
+{
+  "projectPath": "/Users/aw/Desktop/codemagic_tt",
+  "actualPlatform": "ios",
+  "mtimes": {
+    "1ade1819-4666-41c0-90b7-713add03720d": {
+      "assetMtime": 1715846992000,
+      "metaMtime": 1718780028249
+    },
+    "153c3050-7050-404d-b33e-b67030cb1bca": {
+      "assetMtime": 1715390976000,
+      "metaMtime": 1718780028263
+    },
+    "c5f8371b-4328-4879-a57c-e1c1f1d7d730": {
+      "assetMtime": 1715390976000,
+      "metaMtime": 1718780028263
+    },
+    "64829083-44f0-4184-9e41-b22907ddbca7": {
+      "assetMtime": 1715391176000,
+      "metaMtime": 1718780028275
+    },
+    "a995e65c-37c2-4df6-a0c3-15d1ccafd2df": {
+      "assetMtime": 1715391176000,
+      "metaMtime": 1718780028275
+    },
+    "7ad3206c-5f8c-4189-bbce-cca7ce3e6b50": {
+      "assetMtime": 1715390976000,
+      "metaMtime": 1718780028273
+    },
+    "5df219a2-6ee3-449a-a467-2bd072b76e2e": {
+      "assetMtime": 1715390976000,
+      "metaMtime": 1718780028273
+    },
+    "d80313a7-bc37-4b35-8737-3c31aefd20d5": {
+      "assetMtime": 1715390976000,
+      "metaMtime": 1718780028275
+    },
+    "408cac22-b7fa-4144-8ab7-ddd2efe091f2": {
+      "assetMtime": 1715390976000,
+      "metaMtime": 1718780028275
+    },
+    "f78b4467-d3ab-4432-b55e-f0094013cbe5": {
+      "assetMtime": 1715391012000,
+      "metaMtime": 1718780028264
+    },
+    "359ad352-7e48-4b67-a37f-51d450ecef56": {
+      "assetMtime": 1715391012000,
+      "metaMtime": 1718780028264
+    },
+    "fd20afa7-4d67-4b83-85be-04e03d515025": {
+      "assetMtime": 1715391008000,
+      "metaMtime": 1718780028266
+    },
+    "25755345-524f-4636-a244-674d59d892a3": {
+      "assetMtime": 1715391008000,
+      "metaMtime": 1718780028266
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.5",
+    "uuid": "1ade1819-4666-41c0-90b7-713add03720d",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "loading_logo",
+            "uuid": "64829083-44f0-4184-9e41-b22907ddbca7",
+            "textureUuid": "a995e65c-37c2-4df6-a0c3-15d1ccafd2df",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124253_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 312,
+              "height": 278,
+              "rotatedWidth": 278,
+              "rotatedHeight": 312
+            },
+            "rawWidth": 312,
+            "rawHeight": 278,
+            "width": 318,
+            "height": 284,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/a9/a995e65c-37c2-4df6-a0c3-15d1ccafd2df.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 284,
+            "rotatedHeight": 318
+          },
+          {
+            "name": "loading_play",
+            "uuid": "fd20afa7-4d67-4b83-85be-04e03d515025",
+            "textureUuid": "25755345-524f-4636-a244-674d59d892a3",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124260_image_5.png",
+            "trim": {
+              "x": 3,
+              "y": 321,
+              "width": 383,
+              "height": 166,
+              "rotatedWidth": 383,
+              "rotatedHeight": 166
+            },
+            "rawWidth": 383,
+            "rawHeight": 166,
+            "width": 389,
+            "height": 172,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/25/25755345-524f-4636-a244-674d59d892a3.png",
+            "x": 0,
+            "y": 318,
+            "rotatedWidth": 389,
+            "rotatedHeight": 172
+          },
+          {
+            "name": "loaging_bar_di",
+            "uuid": "7ad3206c-5f8c-4189-bbce-cca7ce3e6b50",
+            "textureUuid": "5df219a2-6ee3-449a-a467-2bd072b76e2e",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124253_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 493,
+              "width": 416,
+              "height": 68,
+              "rotatedWidth": 416,
+              "rotatedHeight": 68
+            },
+            "rawWidth": 416,
+            "rawHeight": 68,
+            "width": 422,
+            "height": 74,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/5d/5df219a2-6ee3-449a-a467-2bd072b76e2e.png",
+            "x": 0,
+            "y": 490,
+            "rotatedWidth": 422,
+            "rotatedHeight": 74
+          },
+          {
+            "name": "loading_play_text",
+            "uuid": "f78b4467-d3ab-4432-b55e-f0094013cbe5",
+            "textureUuid": "359ad352-7e48-4b67-a37f-51d450ecef56",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124257_image_4.png",
+            "trim": {
+              "x": 392,
+              "y": 3,
+              "width": 393,
+              "height": 82,
+              "rotatedWidth": 82,
+              "rotatedHeight": 393
+            },
+            "rawWidth": 393,
+            "rawHeight": 82,
+            "width": 399,
+            "height": 88,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/35/359ad352-7e48-4b67-a37f-51d450ecef56.png",
+            "x": 389,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 88,
+            "rotatedHeight": 399
+          },
+          {
+            "name": "loading_text",
+            "uuid": "153c3050-7050-404d-b33e-b67030cb1bca",
+            "textureUuid": "c5f8371b-4328-4879-a57c-e1c1f1d7d730",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124252_image_0.png",
+            "trim": {
+              "x": 287,
+              "y": 3,
+              "width": 288,
+              "height": 39,
+              "rotatedWidth": 39,
+              "rotatedHeight": 288
+            },
+            "rawWidth": 288,
+            "rawHeight": 39,
+            "width": 294,
+            "height": 45,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/c5/c5f8371b-4328-4879-a57c-e1c1f1d7d730.png",
+            "x": 284,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 45,
+            "rotatedHeight": 294
+          },
+          {
+            "name": "loaging_bar_yellow",
+            "uuid": "d80313a7-bc37-4b35-8737-3c31aefd20d5",
+            "textureUuid": "408cac22-b7fa-4144-8ab7-ddd2efe091f2",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124253_image_3.png",
+            "trim": {
+              "x": 3,
+              "y": 567,
+              "width": 380,
+              "height": 30,
+              "rotatedWidth": 380,
+              "rotatedHeight": 30
+            },
+            "rawWidth": 380,
+            "rawHeight": 30,
+            "width": 386,
+            "height": 36,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/40/408cac22-b7fa-4144-8ab7-ddd2efe091f2.png",
+            "x": 0,
+            "y": 564,
+            "rotatedWidth": 386,
+            "rotatedHeight": 36
+          }
+        ],
+        "width": 477,
+        "height": 600,
+        "name": "AutoAtlas-1",
+        "imagePath": "/Users/aw/Desktop/codemagic_tt/temp/TexturePacker/build/native/assets/img/loading/AutoAtlas.pac/AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/aw/Desktop/codemagic_tt/temp/TexturePacker/build/native/assets/img/loading/AutoAtlas.pac/compressed/AutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

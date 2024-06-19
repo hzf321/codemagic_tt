@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game_pauseicon",
+    "texture": "1a0af009-2b47-450b-a1eb-83c5e08d2ff4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      106,
+      118
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      106,
+      118
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

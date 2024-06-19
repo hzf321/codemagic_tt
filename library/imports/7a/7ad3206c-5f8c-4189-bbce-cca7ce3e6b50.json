@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loaging_bar_di",
+    "texture": "5df219a2-6ee3-449a-a467-2bd072b76e2e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      416,
+      68
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      416,
+      68
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hall_suo",
+    "texture": "1639ee99-2e32-467a-be3a-8c341300ede6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      60,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      69
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

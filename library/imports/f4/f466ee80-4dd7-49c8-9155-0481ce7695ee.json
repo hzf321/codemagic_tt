@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "guide1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.16666666666666666,
+  "sample": 60,
+  "speed": 0.3,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "hand2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                83.081,
+                -461.87,
+                0
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                111.574,
+                -482.405,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "hand1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                87.799,
+                44.592,
+                0
+              ]
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": [
+                109.543,
+                26.757,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

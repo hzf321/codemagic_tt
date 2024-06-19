@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "timeout_btn2",
+    "texture": "d8cd55d4-11e0-42ad-a157-f032643b66ab",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      343,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      343,
+      62
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

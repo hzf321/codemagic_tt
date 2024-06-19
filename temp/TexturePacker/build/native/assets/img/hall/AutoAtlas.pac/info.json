@@ -1,0 +1,238 @@
+{
+  "projectPath": "/Users/aw/Desktop/codemagic_tt",
+  "actualPlatform": "ios",
+  "mtimes": {
+    "511c23ea-dcd9-4eaf-8318-0c0677e99c46": {
+      "assetMtime": 1715846996000,
+      "metaMtime": 1718780028234
+    },
+    "0038e36d-788c-4284-bb41-61a34c5dce12": {
+      "assetMtime": 1715393548000,
+      "metaMtime": 1718780028266
+    },
+    "517ba854-4416-4734-8c3f-42dbf9a7c94c": {
+      "assetMtime": 1715393548000,
+      "metaMtime": 1718780028266
+    },
+    "8f0956aa-2367-4baf-bba0-c44369bac49c": {
+      "assetMtime": 1715394496000,
+      "metaMtime": 1718780028259
+    },
+    "54a21bd0-806d-4535-ac88-4aaefefbfcb5": {
+      "assetMtime": 1715394496000,
+      "metaMtime": 1718780028259
+    },
+    "99be8b6f-995b-4c41-a65a-e2480e2872fa": {
+      "assetMtime": 1715395258000,
+      "metaMtime": 1718780028249
+    },
+    "e9158ddc-bc4d-4811-8cd4-ef1d7eb27ab6": {
+      "assetMtime": 1715395258000,
+      "metaMtime": 1718780028249
+    },
+    "ecda909d-4cf6-4aaa-92e2-da7975a296dd": {
+      "assetMtime": 1715393548000,
+      "metaMtime": 1718780028250
+    },
+    "120cd13d-4e5f-4ee6-9305-6ddeb6678ece": {
+      "assetMtime": 1715393548000,
+      "metaMtime": 1718780028250
+    },
+    "f40cfc15-1304-4c93-9b5e-9c68802e7169": {
+      "assetMtime": 1715395254000,
+      "metaMtime": 1718780028252
+    },
+    "1639ee99-2e32-467a-be3a-8c341300ede6": {
+      "assetMtime": 1715395254000,
+      "metaMtime": 1718780028252
+    },
+    "ff8044e1-3f4f-491c-893b-99f4f4eb570d": {
+      "assetMtime": 1715393672000,
+      "metaMtime": 1718780028251
+    },
+    "20b5a922-629f-44f8-bc72-bf2d132bdf01": {
+      "assetMtime": 1715393672000,
+      "metaMtime": 1718780028251
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.5",
+    "uuid": "511c23ea-dcd9-4eaf-8318-0c0677e99c46",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "hall_title",
+            "uuid": "0038e36d-788c-4284-bb41-61a34c5dce12",
+            "textureUuid": "517ba854-4416-4734-8c3f-42dbf9a7c94c",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780123365_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 641,
+              "height": 140,
+              "rotatedWidth": 641,
+              "rotatedHeight": 140
+            },
+            "rawWidth": 641,
+            "rawHeight": 140,
+            "width": 647,
+            "height": 146,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/51/517ba854-4416-4734-8c3f-42dbf9a7c94c.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 647,
+            "rotatedHeight": 146
+          },
+          {
+            "name": "hall_mask",
+            "uuid": "99be8b6f-995b-4c41-a65a-e2480e2872fa",
+            "textureUuid": "e9158ddc-bc4d-4811-8cd4-ef1d7eb27ab6",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780123365_image_2.png",
+            "trim": {
+              "x": 650,
+              "y": 3,
+              "width": 296,
+              "height": 222,
+              "rotatedWidth": 296,
+              "rotatedHeight": 222
+            },
+            "rawWidth": 296,
+            "rawHeight": 222,
+            "width": 302,
+            "height": 228,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/e9/e9158ddc-bc4d-4811-8cd4-ef1d7eb27ab6.png",
+            "x": 647,
+            "y": 0,
+            "rotatedWidth": 302,
+            "rotatedHeight": 228
+          },
+          {
+            "name": "hall_aboutgame",
+            "uuid": "ecda909d-4cf6-4aaa-92e2-da7975a296dd",
+            "textureUuid": "120cd13d-4e5f-4ee6-9305-6ddeb6678ece",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780123365_image_3.png",
+            "trim": {
+              "x": 3,
+              "y": 149,
+              "width": 465,
+              "height": 97,
+              "rotatedWidth": 465,
+              "rotatedHeight": 97
+            },
+            "rawWidth": 465,
+            "rawHeight": 97,
+            "width": 471,
+            "height": 103,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/12/120cd13d-4e5f-4ee6-9305-6ddeb6678ece.png",
+            "x": 0,
+            "y": 146,
+            "rotatedWidth": 471,
+            "rotatedHeight": 103
+          },
+          {
+            "name": "hall_setting",
+            "uuid": "ff8044e1-3f4f-491c-893b-99f4f4eb570d",
+            "textureUuid": "20b5a922-629f-44f8-bc72-bf2d132bdf01",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780123366_image_5.png",
+            "trim": {
+              "x": 474,
+              "y": 149,
+              "width": 85,
+              "height": 83,
+              "rotatedWidth": 85,
+              "rotatedHeight": 83
+            },
+            "rawWidth": 85,
+            "rawHeight": 83,
+            "width": 91,
+            "height": 89,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/20/20b5a922-629f-44f8-bc72-bf2d132bdf01.png",
+            "x": 471,
+            "y": 146,
+            "rotatedWidth": 91,
+            "rotatedHeight": 89
+          },
+          {
+            "name": "hall_suo",
+            "uuid": "f40cfc15-1304-4c93-9b5e-9c68802e7169",
+            "textureUuid": "1639ee99-2e32-467a-be3a-8c341300ede6",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780123366_image_4.png",
+            "trim": {
+              "x": 565,
+              "y": 149,
+              "width": 60,
+              "height": 69,
+              "rotatedWidth": 69,
+              "rotatedHeight": 60
+            },
+            "rawWidth": 60,
+            "rawHeight": 69,
+            "width": 66,
+            "height": 75,
+            "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/16/1639ee99-2e32-467a-be3a-8c341300ede6.png",
+            "x": 562,
+            "y": 146,
+            "rotated": true,
+            "rotatedWidth": 75,
+            "rotatedHeight": 66
+          }
+        ],
+        "width": 949,
+        "height": 249,
+        "name": "AutoAtlas-1",
+        "imagePath": "/Users/aw/Desktop/codemagic_tt/temp/TexturePacker/build/native/assets/img/hall/AutoAtlas.pac/AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/aw/Desktop/codemagic_tt/temp/TexturePacker/build/native/assets/img/hall/AutoAtlas.pac/compressed/AutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": [
+      {
+        "name": "hall_scrollview_di",
+        "uuid": "8f0956aa-2367-4baf-bba0-c44369bac49c",
+        "textureUuid": "54a21bd0-806d-4535-ac88-4aaefefbfcb5",
+        "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780123365_image_1.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 668,
+          "height": 1167,
+          "rotatedWidth": 668,
+          "rotatedHeight": 1167
+        },
+        "rawWidth": 668,
+        "rawHeight": 1167,
+        "width": 674,
+        "height": 1173,
+        "originalPath": "/Users/aw/Desktop/codemagic_tt/library/imports/54/54a21bd0-806d-4535-ac88-4aaefefbfcb5.png"
+      }
+    ]
+  }
+}

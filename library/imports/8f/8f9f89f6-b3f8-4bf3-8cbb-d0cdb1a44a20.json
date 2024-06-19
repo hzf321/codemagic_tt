@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "comment_star",
+    "texture": "14faf9eb-ece8-487f-98a0-3d1c6eca866d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      104,
+      95
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      104,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

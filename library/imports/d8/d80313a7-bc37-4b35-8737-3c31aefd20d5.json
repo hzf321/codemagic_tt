@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loaging_bar_yellow",
+    "texture": "408cac22-b7fa-4144-8ab7-ddd2efe091f2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      380,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      380,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

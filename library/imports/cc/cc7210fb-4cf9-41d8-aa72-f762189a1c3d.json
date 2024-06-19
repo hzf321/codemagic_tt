@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "setting_zhengodng",
+    "texture": "f27755c6-2fbe-441b-9d1d-2c71cf73222a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      46,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      48
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
