@@ -797,7 +797,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dfvjf.ijsiov123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkvqpfdx.pksdnw;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -840,7 +840,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dfvjf.ijsiov123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jkvqpfdx.pksdnw;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				SWIFT_VERSION = 5.0;
