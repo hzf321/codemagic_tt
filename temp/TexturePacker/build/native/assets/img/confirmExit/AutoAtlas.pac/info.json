@@ -4,23 +4,23 @@
   "mtimes": {
     "4f3db73f-175c-4a54-a84e-cbce93353f76": {
       "assetMtime": 1715847002000,
-      "metaMtime": 1718780028199
+      "metaMtime": 1718790576319
     },
     "2a77f84b-d789-425b-9527-089c5a19f370": {
       "assetMtime": 1715674662000,
-      "metaMtime": 1718780028212
+      "metaMtime": 1718790576335
     },
     "68d83935-6794-4fe7-bf59-df2bb182878f": {
       "assetMtime": 1715674662000,
-      "metaMtime": 1718780028212
+      "metaMtime": 1718790576335
     },
     "b5eddf75-afd8-484b-b92a-5fd8de430c02": {
       "assetMtime": 1715674662000,
-      "metaMtime": 1718780028211
+      "metaMtime": 1718790576348
     },
     "40942c53-61ce-4c4a-a3be-851a30479668": {
       "assetMtime": 1715674662000,
-      "metaMtime": 1718780028211
+      "metaMtime": 1718790576348
     }
   },
   "result": {
@@ -56,7 +56,7 @@
             "name": "confirmExit_btn",
             "uuid": "2a77f84b-d789-425b-9527-089c5a19f370",
             "textureUuid": "68d83935-6794-4fe7-bf59-df2bb182878f",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780119454_image_0.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790729290_image_0.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -80,7 +80,7 @@
             "name": "confirmExit_title",
             "uuid": "b5eddf75-afd8-484b-b92a-5fd8de430c02",
             "textureUuid": "40942c53-61ce-4c4a-a3be-851a30479668",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780119454_image_1.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790729290_image_1.png",
             "trim": {
               "x": 3,
               "y": 689,

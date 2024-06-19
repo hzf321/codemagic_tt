@@ -53,7 +53,7 @@ class GameDataClass {
 
             jsb.reflection.callStaticMethod("UnityMgr", "loadReward");//全屏视频;
             window['onCloseFinishCb'] = null;
-            window['onCloseFinishCb']= finishCb;
+            window['onCloseFinishCb'] = finishCb;
 
         } else {
             finishCb();
@@ -95,6 +95,15 @@ class GameDataClass {
         }else if (cc.sys.isNative && cc.sys.OS_IOS == cc.sys.os) {
 
         } 
+    }
+
+
+    setGamestop(func: Function) {
+        window['gamestop'] = func;
+    }
+
+    setGamerecovery(func: Function) {
+        window['gamerecovery'] = func;
     }
 
   
@@ -139,5 +148,17 @@ window['onCloseVdieofailCb'] = () => {
 
 
 window['onClosefailCb'] = () => {
+   
+}
+
+
+//游戏暂停
+window['gamestop'] = () => {
+   
+}
+
+
+//游戏恢复
+window['gamerecovery'] = () => {
    
 }

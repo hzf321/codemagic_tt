@@ -4,55 +4,55 @@
   "mtimes": {
     "adebca63-4311-4e78-9eff-62cfe1bec1ff": {
       "assetMtime": 1715847010000,
-      "metaMtime": 1718780028172
+      "metaMtime": 1718790576285
     },
     "04821738-db57-450d-8596-238e83f0d97d": {
       "assetMtime": 1715755526000,
-      "metaMtime": 1718780028198
+      "metaMtime": 1718790576319
     },
     "155e7395-5161-4e24-854e-3ea51d033cd0": {
       "assetMtime": 1715755526000,
-      "metaMtime": 1718780028198
+      "metaMtime": 1718790576319
     },
     "1b89fe49-aefa-4431-ab91-493b2b11952d": {
       "assetMtime": 1715679050000,
-      "metaMtime": 1718780028190
+      "metaMtime": 1718790576311
     },
     "61753724-a3e7-43b0-a566-7319ab0ab50e": {
       "assetMtime": 1715679050000,
-      "metaMtime": 1718780028190
+      "metaMtime": 1718790576311
     },
     "3f0da4d6-fe93-4385-a143-37acfd8016d5": {
       "assetMtime": 1715679050000,
-      "metaMtime": 1718780028197
+      "metaMtime": 1718790576318
     },
     "be335275-103a-4181-8c7b-9880133afaf0": {
       "assetMtime": 1715679050000,
-      "metaMtime": 1718780028197
+      "metaMtime": 1718790576318
     },
     "8f9f89f6-b3f8-4bf3-8cbb-d0cdb1a44a20": {
       "assetMtime": 1715679050000,
-      "metaMtime": 1718780028192
+      "metaMtime": 1718790576316
     },
     "14faf9eb-ece8-487f-98a0-3d1c6eca866d": {
       "assetMtime": 1715679050000,
-      "metaMtime": 1718780028192
+      "metaMtime": 1718790576316
     },
     "eca1205c-c87b-48c6-93c4-49800a46290a": {
       "assetMtime": 1715755526000,
-      "metaMtime": 1718780028196
+      "metaMtime": 1718790576317
     },
     "184f3782-0a0d-4351-b3e7-07d4a9936ce6": {
       "assetMtime": 1715755526000,
-      "metaMtime": 1718780028196
+      "metaMtime": 1718790576317
     },
     "f69009f8-7157-4b41-8ebe-553bdb9fdc1d": {
       "assetMtime": 1715679050000,
-      "metaMtime": 1718780028186
+      "metaMtime": 1718790576309
     },
     "1168ff90-8930-4910-a251-7f71a4a71b7c": {
       "assetMtime": 1715679050000,
-      "metaMtime": 1718780028186
+      "metaMtime": 1718790576309
     }
   },
   "result": {
@@ -88,7 +88,7 @@
             "name": "comment_btn",
             "uuid": "1b89fe49-aefa-4431-ab91-493b2b11952d",
             "textureUuid": "61753724-a3e7-43b0-a566-7319ab0ab50e",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780118525_image_1.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790729679_image_1.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -112,7 +112,7 @@
             "name": "newhand_2",
             "uuid": "04821738-db57-450d-8596-238e83f0d97d",
             "textureUuid": "155e7395-5161-4e24-854e-3ea51d033cd0",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780118525_image_0.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790729679_image_0.png",
             "trim": {
               "x": 179,
               "y": 3,
@@ -136,7 +136,7 @@
             "name": "comment_title",
             "uuid": "3f0da4d6-fe93-4385-a143-37acfd8016d5",
             "textureUuid": "be335275-103a-4181-8c7b-9880133afaf0",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780118525_image_2.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790729679_image_2.png",
             "trim": {
               "x": 179,
               "y": 108,
@@ -160,7 +160,7 @@
             "name": "newhand_1",
             "uuid": "eca1205c-c87b-48c6-93c4-49800a46290a",
             "textureUuid": "184f3782-0a0d-4351-b3e7-07d4a9936ce6",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780118525_image_4.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790729679_image_4.png",
             "trim": {
               "x": 3,
               "y": 689,
@@ -183,7 +183,7 @@
             "name": "comment_star",
             "uuid": "8f9f89f6-b3f8-4bf3-8cbb-d0cdb1a44a20",
             "textureUuid": "14faf9eb-ece8-487f-98a0-3d1c6eca866d",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780118525_image_3.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790729679_image_3.png",
             "trim": {
               "x": 178,
               "y": 696,
@@ -206,7 +206,7 @@
             "name": "comment_nostar",
             "uuid": "f69009f8-7157-4b41-8ebe-553bdb9fdc1d",
             "textureUuid": "1168ff90-8930-4910-a251-7f71a4a71b7c",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780118528_image_5.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790729679_image_5.png",
             "trim": {
               "x": 178,
               "y": 797,

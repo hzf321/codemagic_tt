@@ -68,6 +68,12 @@ var NewClass = /** @class */ (function (_super) {
     }
     NewClass.prototype.start = function () {
         var _this = this;
+        gameData_1.gameData.setGamestop(function () {
+            _this.isPause = true;
+        });
+        gameData_1.gameData.setGamerecovery(function () {
+            _this.isPause = false;
+        });
         if (cc.sys.platform === cc.sys.IPAD) {
             this.getComponent(cc.Canvas).fitHeight = true;
             this.getComponent(cc.Canvas).fitWidth = false;

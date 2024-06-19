@@ -78,6 +78,14 @@ export default class NewClass extends cc.Component {
 
     start() {
     
+        gameData.setGamestop(()=>{
+            this.isPause = true;
+        });
+
+        gameData.setGamerecovery(()=>{
+            this.isPause = false;
+        });
+
         if (cc.sys.platform === cc.sys.IPAD) {
             this.getComponent(cc.Canvas).fitHeight = true;
             this.getComponent(cc.Canvas).fitWidth = false;

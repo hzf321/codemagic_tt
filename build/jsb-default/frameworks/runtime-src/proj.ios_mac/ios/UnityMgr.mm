@@ -65,6 +65,9 @@ BOOL myBoolVariable = NO;
    NSLog(@"UnityMgr====== loadReward" );
         
     if (myBoolVariable) {
+        cocos2d::Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
+            se::ScriptEngine::getInstance()->evalString("window['gamestop']()");
+        });
         [UnityMgr showReward];
     }else {
         cocos2d::Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
@@ -97,7 +100,9 @@ BOOL myBoolVariable = NO;
    if ([placementId isEqualToString:@"Rewarded_iOS"] && state == kUnityShowCompletionStateCompleted) {
        // Reward the user.
        NSLog(@"UnityMgr====== 视频看完回调" );
-       
+       cocos2d::Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
+           se::ScriptEngine::getInstance()->evalString("window['gamerecovery']()");
+       });
        cocos2d::Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
            se::ScriptEngine::getInstance()->evalString("window['onCloseVdieoFinishCb']()");
        });

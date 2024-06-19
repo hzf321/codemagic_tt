@@ -85,6 +85,12 @@ var GameDataClass = /** @class */ (function () {
         else if (cc.sys.isNative && cc.sys.OS_IOS == cc.sys.os) {
         }
     };
+    GameDataClass.prototype.setGamestop = function (func) {
+        window['gamestop'] = func;
+    };
+    GameDataClass.prototype.setGamerecovery = function (func) {
+        window['gamerecovery'] = func;
+    };
     GameDataClass._instance = null;
     return GameDataClass;
 }());
@@ -121,6 +127,12 @@ window['onCloseVdieofailCb'] = function () {
     window['onClosefailCb']();
 };
 window['onClosefailCb'] = function () {
+};
+//游戏暂停
+window['gamestop'] = function () {
+};
+//游戏恢复
+window['gamerecovery'] = function () {
 };
 
 cc._RF.pop();

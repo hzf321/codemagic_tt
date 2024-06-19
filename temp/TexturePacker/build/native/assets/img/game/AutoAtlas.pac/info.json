@@ -4,71 +4,71 @@
   "mtimes": {
     "e6f44706-1290-4c47-9a06-2dbc243ac8f4": {
       "assetMtime": 1715846998000,
-      "metaMtime": 1718780028208
+      "metaMtime": 1718790576334
     },
     "14c0c879-6912-4df6-b6e8-3a38e2e90b7c": {
       "assetMtime": 1715416200000,
-      "metaMtime": 1718780028238
+      "metaMtime": 1718790576369
     },
     "1a0af009-2b47-450b-a1eb-83c5e08d2ff4": {
       "assetMtime": 1715416200000,
-      "metaMtime": 1718780028238
+      "metaMtime": 1718790576369
     },
     "265773da-ae05-4c92-9c8a-bb53f58521b9": {
       "assetMtime": 1715416186000,
-      "metaMtime": 1718780028223
+      "metaMtime": 1718790576353
     },
     "b16eae65-4a88-42d1-95ee-3d3ba7dbc05a": {
       "assetMtime": 1715416186000,
-      "metaMtime": 1718780028223
+      "metaMtime": 1718790576353
     },
     "44839e39-a7a1-4ef1-bd85-e124984cb812": {
       "assetMtime": 1715416192000,
-      "metaMtime": 1718780028222
+      "metaMtime": 1718790576352
     },
     "011f4d3f-3942-4449-b96f-b4a1ce6150f3": {
       "assetMtime": 1715416192000,
-      "metaMtime": 1718780028222
+      "metaMtime": 1718790576352
     },
     "4eb603f6-8891-4388-ae7c-98e9f6a1152c": {
       "assetMtime": 1715417262000,
-      "metaMtime": 1718780028240
+      "metaMtime": 1718790576369
     },
     "0718e916-a717-4b12-9f1a-86187b3f8145": {
       "assetMtime": 1715417262000,
-      "metaMtime": 1718780028240
+      "metaMtime": 1718790576369
     },
     "59419325-ebd3-49ac-baac-d31d0c5d812c": {
       "assetMtime": 1715416210000,
-      "metaMtime": 1718780028239
+      "metaMtime": 1718790576371
     },
     "b1cc6880-dfee-4d0c-b739-3c6c0d68ac04": {
       "assetMtime": 1715416210000,
-      "metaMtime": 1718780028239
+      "metaMtime": 1718790576371
     },
     "5ed1e2d5-ad7e-4d6a-8037-704b7def344b": {
       "assetMtime": 1715416294000,
-      "metaMtime": 1718780028236
+      "metaMtime": 1718790576365
     },
     "1fc7f214-a73b-4f58-bcfa-4d2eaa268956": {
       "assetMtime": 1715416294000,
-      "metaMtime": 1718780028236
+      "metaMtime": 1718790576365
     },
     "ba59e8b0-b96e-454f-acde-91a2caffc5ad": {
       "assetMtime": 1715830688000,
-      "metaMtime": 1718780028246
+      "metaMtime": 1718790576370
     },
     "22acc70c-6f97-4303-b98c-bb64b955e06e": {
       "assetMtime": 1715830688000,
-      "metaMtime": 1718780028246
+      "metaMtime": 1718790576370
     },
     "baa47998-07e0-46fc-8c24-78ddec733da6": {
       "assetMtime": 1715416186000,
-      "metaMtime": 1718780028227
+      "metaMtime": 1718790576354
     },
     "6f426183-ed7b-4377-8706-9a522bdfa622": {
       "assetMtime": 1715416186000,
-      "metaMtime": 1718780028227
+      "metaMtime": 1718790576354
     }
   },
   "result": {
@@ -104,7 +104,7 @@
             "name": "game_imgbg",
             "uuid": "4eb603f6-8891-4388-ae7c-98e9f6a1152c",
             "textureUuid": "0718e916-a717-4b12-9f1a-86187b3f8145",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780122394_image_3.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731096_image_3.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -128,7 +128,7 @@
             "name": "game_tishi",
             "uuid": "59419325-ebd3-49ac-baac-d31d0c5d812c",
             "textureUuid": "b1cc6880-dfee-4d0c-b739-3c6c0d68ac04",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780122394_image_4.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731096_image_4.png",
             "trim": {
               "x": 3,
               "y": 648,
@@ -151,7 +151,7 @@
             "name": "game_find",
             "uuid": "baa47998-07e0-46fc-8c24-78ddec733da6",
             "textureUuid": "6f426183-ed7b-4377-8706-9a522bdfa622",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780122394_image_7.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731097_image_7.png",
             "trim": {
               "x": 3,
               "y": 822,
@@ -175,7 +175,7 @@
             "name": "tishiImg",
             "uuid": "ba59e8b0-b96e-454f-acde-91a2caffc5ad",
             "textureUuid": "22acc70c-6f97-4303-b98c-bb64b955e06e",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780122394_image_6.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731097_image_6.png",
             "trim": {
               "x": 139,
               "y": 648,
@@ -198,7 +198,7 @@
             "name": "game_qipao",
             "uuid": "5ed1e2d5-ad7e-4d6a-8037-704b7def344b",
             "textureUuid": "1fc7f214-a73b-4f58-bcfa-4d2eaa268956",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780122394_image_5.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731096_image_5.png",
             "trim": {
               "x": 139,
               "y": 802,
@@ -221,7 +221,7 @@
             "name": "game_pauseicon",
             "uuid": "14c0c879-6912-4df6-b6e8-3a38e2e90b7c",
             "textureUuid": "1a0af009-2b47-450b-a1eb-83c5e08d2ff4",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780122393_image_0.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731096_image_0.png",
             "trim": {
               "x": 293,
               "y": 648,
@@ -245,7 +245,7 @@
             "name": "game_back",
             "uuid": "44839e39-a7a1-4ef1-bd85-e124984cb812",
             "textureUuid": "011f4d3f-3942-4449-b96f-b4a1ce6150f3",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780122393_image_2.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731096_image_2.png",
             "trim": {
               "x": 293,
               "y": 760,
@@ -268,7 +268,7 @@
             "name": "game_err",
             "uuid": "265773da-ae05-4c92-9c8a-bb53f58521b9",
             "textureUuid": "b16eae65-4a88-42d1-95ee-3d3ba7dbc05a",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780122393_image_1.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731096_image_1.png",
             "trim": {
               "x": 404,
               "y": 760,

@@ -4,55 +4,55 @@
   "mtimes": {
     "1ade1819-4666-41c0-90b7-713add03720d": {
       "assetMtime": 1715846992000,
-      "metaMtime": 1718780028249
+      "metaMtime": 1718790576382
     },
     "153c3050-7050-404d-b33e-b67030cb1bca": {
       "assetMtime": 1715390976000,
-      "metaMtime": 1718780028263
+      "metaMtime": 1718790576402
     },
     "c5f8371b-4328-4879-a57c-e1c1f1d7d730": {
       "assetMtime": 1715390976000,
-      "metaMtime": 1718780028263
+      "metaMtime": 1718790576402
     },
     "64829083-44f0-4184-9e41-b22907ddbca7": {
       "assetMtime": 1715391176000,
-      "metaMtime": 1718780028275
+      "metaMtime": 1718790576409
     },
     "a995e65c-37c2-4df6-a0c3-15d1ccafd2df": {
       "assetMtime": 1715391176000,
-      "metaMtime": 1718780028275
+      "metaMtime": 1718790576409
     },
     "7ad3206c-5f8c-4189-bbce-cca7ce3e6b50": {
       "assetMtime": 1715390976000,
-      "metaMtime": 1718780028273
+      "metaMtime": 1718790576406
     },
     "5df219a2-6ee3-449a-a467-2bd072b76e2e": {
       "assetMtime": 1715390976000,
-      "metaMtime": 1718780028273
+      "metaMtime": 1718790576406
     },
     "d80313a7-bc37-4b35-8737-3c31aefd20d5": {
       "assetMtime": 1715390976000,
-      "metaMtime": 1718780028275
+      "metaMtime": 1718790576407
     },
     "408cac22-b7fa-4144-8ab7-ddd2efe091f2": {
       "assetMtime": 1715390976000,
-      "metaMtime": 1718780028275
+      "metaMtime": 1718790576407
     },
     "f78b4467-d3ab-4432-b55e-f0094013cbe5": {
       "assetMtime": 1715391012000,
-      "metaMtime": 1718780028264
+      "metaMtime": 1718790576401
     },
     "359ad352-7e48-4b67-a37f-51d450ecef56": {
       "assetMtime": 1715391012000,
-      "metaMtime": 1718780028264
+      "metaMtime": 1718790576401
     },
     "fd20afa7-4d67-4b83-85be-04e03d515025": {
       "assetMtime": 1715391008000,
-      "metaMtime": 1718780028266
+      "metaMtime": 1718790576398
     },
     "25755345-524f-4636-a244-674d59d892a3": {
       "assetMtime": 1715391008000,
-      "metaMtime": 1718780028266
+      "metaMtime": 1718790576398
     }
   },
   "result": {
@@ -88,7 +88,7 @@
             "name": "loading_logo",
             "uuid": "64829083-44f0-4184-9e41-b22907ddbca7",
             "textureUuid": "a995e65c-37c2-4df6-a0c3-15d1ccafd2df",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124253_image_1.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731909_image_1.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -112,7 +112,7 @@
             "name": "loading_play",
             "uuid": "fd20afa7-4d67-4b83-85be-04e03d515025",
             "textureUuid": "25755345-524f-4636-a244-674d59d892a3",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124260_image_5.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731909_image_5.png",
             "trim": {
               "x": 3,
               "y": 321,
@@ -135,7 +135,7 @@
             "name": "loaging_bar_di",
             "uuid": "7ad3206c-5f8c-4189-bbce-cca7ce3e6b50",
             "textureUuid": "5df219a2-6ee3-449a-a467-2bd072b76e2e",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124253_image_2.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731909_image_2.png",
             "trim": {
               "x": 3,
               "y": 493,
@@ -158,7 +158,7 @@
             "name": "loading_play_text",
             "uuid": "f78b4467-d3ab-4432-b55e-f0094013cbe5",
             "textureUuid": "359ad352-7e48-4b67-a37f-51d450ecef56",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124257_image_4.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731909_image_4.png",
             "trim": {
               "x": 392,
               "y": 3,
@@ -182,7 +182,7 @@
             "name": "loading_text",
             "uuid": "153c3050-7050-404d-b33e-b67030cb1bca",
             "textureUuid": "c5f8371b-4328-4879-a57c-e1c1f1d7d730",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124252_image_0.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731908_image_0.png",
             "trim": {
               "x": 287,
               "y": 3,
@@ -206,7 +206,7 @@
             "name": "loaging_bar_yellow",
             "uuid": "d80313a7-bc37-4b35-8737-3c31aefd20d5",
             "textureUuid": "408cac22-b7fa-4144-8ab7-ddd2efe091f2",
-            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718780124253_image_3.png",
+            "path": "/Users/aw/Desktop/codemagic_tt/temp/trimImages/spritesheet_js_1718790731909_image_3.png",
             "trim": {
               "x": 3,
               "y": 567,
