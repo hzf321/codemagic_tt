@@ -30,8 +30,7 @@
 #import "RootViewController.h"
 #import "SDKWrapper.h"
 #import "platform/ios/CCEAGLView-ios.h"
-
-
+#import "UnityMgr.h"
 
 using namespace cocos2d;
 
@@ -78,6 +77,8 @@ Application* app = nullptr;
     [window makeKeyAndVisible];
     
     [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    
+    [[UnityMgr shareInstance] initsdk: _viewController];
     
     //run the cocos2d-x game scene
     app->start();
