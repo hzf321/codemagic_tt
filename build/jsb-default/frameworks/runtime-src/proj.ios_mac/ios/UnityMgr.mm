@@ -11,6 +11,8 @@
        
 static UnityMgr* _instance = nil;
 
+BOOL myBoolVariable = NO;
+
 + (UnityMgr*) shareInstance {
    static dispatch_once_t onceToken ;
    dispatch_once(&onceToken, ^{
@@ -34,10 +36,11 @@ static UnityMgr* _instance = nil;
 // Implement initialization callbacks to handle success or failure:
 #pragma mark : UnityAdsInitializationDelegate
 - (void)initializationComplete {
-   NSLog(@"UnityMgr====== UnityAdsInitializationDelegate initializationComplete" );
-   // Pre-load an ad when initialization succeeds, so it is ready to show:
-//    [self loadReward];
-   //[UnityMgr loadReward];
+    NSLog(@"UnityMgr====== UnityAdsInitializationDelegate initializationComplete" );
+    // Pre-load an ad when initialization succeeds, so it is ready to show:
+    //[self loadReward];
+
+    [UnityAds load:@"Rewarded_iOS" loadDelegate:[UnityMgr shareInstance]];
 }
 
 - (void)initializationFailed:(UnityAdsInitializationError)error withMessage:(NSString *)message {
@@ -48,7 +51,8 @@ static UnityMgr* _instance = nil;
 #pragma mark: UnityAdsLoadDelegate
 - (void)unityAdsAdLoaded:(NSString *)placementId {
    NSLog(@"UnityMgr====== UnityAdsLoadDelegate unityAdsAdLoaded %@", placementId);
-   [self showReward];
+    myBoolVariable = YES;
+    //[self showReward];
 }
 
 - (void)unityAdsAdFailedToLoad:(NSString *)placementId
@@ -59,7 +63,17 @@ static UnityMgr* _instance = nil;
 
 + (void)loadReward{
    NSLog(@"UnityMgr====== loadReward" );
-   [UnityAds load:@"Rewarded_iOS" loadDelegate:[UnityMgr shareInstance]];
+        
+    if (myBoolVariable) {
+        [UnityMgr showReward];
+    }else {
+        cocos2d::Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
+            se::ScriptEngine::getInstance()->evalString("window['onCloseVdieofailCb']()");
+        });
+        
+        [UnityAds load:@"Rewarded_iOS" loadDelegate:[UnityMgr shareInstance]];
+    }
+ 
 }
 
 + (void)loadInterstitial{
@@ -67,9 +81,9 @@ static UnityMgr* _instance = nil;
    [UnityAds load:@"Interstitial_iOS" loadDelegate:[UnityMgr shareInstance]];
 }
 
-- (void)showReward{
++ (void)showReward{
    NSLog(@"UnityMgr====== 观看激励视频 " );
-   [UnityAds show:self.viewController placementId:@"Rewarded_iOS" showDelegate:self];
+   [UnityAds show:[UnityMgr shareInstance].viewController placementId:@"Rewarded_iOS" showDelegate:[UnityMgr shareInstance]];
 }
 
 - (void)showInterstitial{
@@ -87,14 +101,17 @@ static UnityMgr* _instance = nil;
        cocos2d::Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
            se::ScriptEngine::getInstance()->evalString("window['onCloseVdieoFinishCb']()");
        });
+       myBoolVariable = NO;
+       [UnityAds load:@"Rewarded_iOS" loadDelegate:[UnityMgr shareInstance]];
    }
 }
 
 - (void)unityAdsShowFailed: (NSString *)placementId withError: (UnityAdsShowError)error withMessage: (NSString *)message{
-   NSLog(@"UnityMgr====== unityAdsShowFailed %@", message );
-    cocos2d::Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
-        se::ScriptEngine::getInstance()->evalString("window['onCloseVdieofailCb']()");
-    });
+    NSLog(@"UnityMgr====== unityAdsShowFailed %@", message );
+    //    cocos2d::Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
+    //        se::ScriptEngine::getInstance()->evalString("window['onCloseVdieofailCb']()");
+    //    });
+    myBoolVariable = NO;
 }
 
 - (void)unityAdsShowStart: (NSString *)placementId{

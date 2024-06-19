@@ -8,7 +8,7 @@
 @property(nonatomic, strong) UIViewController* viewController;
 
 - (void)initsdk:(UIViewController*) view;
-- (void)showReward;
++ (void)showReward;
 - (void)showInterstitial;
 
 + (void)loadReward;
