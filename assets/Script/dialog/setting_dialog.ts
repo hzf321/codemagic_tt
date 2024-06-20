@@ -132,11 +132,11 @@ export default class setting_dialog extends cc.Component {
 
     onClick_PrivacyPolicy_btn() {
         Global.audioUtils.commonBtnClick();
-        cc.sys.openURL("https://sites.google.com/view/beauty-unveiled-uncover-the-di/%E9%A6%96%E9%A1%B5");
+        cc.sys.openURL("https://sites.google.com/view/beautyunveiledprivacypolicy/home");
     }
 
     onClick_Termsofservicebtn() {
-        cc.sys.openURL("https://sites.google.com/view/beautyunveileduncoverthediffer/%E9%A6%96%E9%A1%B5");
+        cc.sys.openURL("https://sites.google.com/view/beautyunveiledtermsofservice/home");
         Global.audioUtils.commonBtnClick();
     }
 }

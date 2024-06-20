@@ -134,10 +134,10 @@ var setting_dialog = /** @class */ (function (_super) {
     };
     setting_dialog.prototype.onClick_PrivacyPolicy_btn = function () {
         global_1.Global.audioUtils.commonBtnClick();
-        cc.sys.openURL("https://sites.google.com/view/beauty-unveiled-uncover-the-di/%E9%A6%96%E9%A1%B5");
+        cc.sys.openURL("https://sites.google.com/view/beautyunveiledprivacypolicy/home");
     };
     setting_dialog.prototype.onClick_Termsofservicebtn = function () {
-        cc.sys.openURL("https://sites.google.com/view/beautyunveileduncoverthediffer/%E9%A6%96%E9%A1%B5");
+        cc.sys.openURL("https://sites.google.com/view/beautyunveiledtermsofservice/home");
         global_1.Global.audioUtils.commonBtnClick();
     };
     __decorate([

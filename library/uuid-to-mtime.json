@@ -1534,11 +1534,6 @@
     "meta": 1718790576985,
     "relativePath": "resources/originalImg/9-o.png"
   },
-  "288ff68f-d992-4c61-96a8-07dd06730534": {
-    "asset": 1716350054000,
-    "meta": 1718790577516,
-    "relativePath": "script/dialog/clause_dialog.ts"
-  },
   "c951d10a-20e8-4810-a8a5-ba568dbeaf76": {
     "asset": 1716349386000,
     "meta": 1718790577531,
@@ -1568,11 +1563,6 @@
     "asset": 1715759254000,
     "meta": 1718790577558,
     "relativePath": "resources/sound/fail.mp3"
-  },
-  "373fef08-35c6-47f0-a21b-1bd3c30995ab": {
-    "asset": 1716350064000,
-    "meta": 1718790577587,
-    "relativePath": "script/dialog/setting_dialog.ts"
   },
   "984605c5-16cd-4908-8f5f-d15985b97056": {
     "asset": 1716256842000,
@@ -1638,5 +1628,15 @@
     "asset": 1715759254000,
     "meta": 1718790577802,
     "relativePath": "resources/sound/bgm.mp3"
+  },
+  "288ff68f-d992-4c61-96a8-07dd06730534": {
+    "asset": 1718847199244,
+    "meta": 1718847201423,
+    "relativePath": "script/dialog/clause_dialog.ts"
+  },
+  "373fef08-35c6-47f0-a21b-1bd3c30995ab": {
+    "asset": 1718847193475,
+    "meta": 1718847201474,
+    "relativePath": "script/dialog/setting_dialog.ts"
   }
 }
